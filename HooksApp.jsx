@@ -1,8 +1,11 @@
+import { CounterComponent } from "./src/components/CounterComponent"
 
 export const HooksApp = () => {
   return (
     <>
-      <h1>Hooks App</h1>
+      <h2>Hooks App</h2>
+      <hr />
+      <CounterComponent />
     </>
   )
 }
