@@ -1,5 +1,6 @@
 import { CounterComponent } from "./src/components/CounterComponent"
 import { FormComponent } from "./src/components/FormComponent"
+import { UsuariosComponent } from "./src/components/UsuariosComponent"
 
 export const HooksApp = () => {
   return (
@@ -9,6 +10,8 @@ export const HooksApp = () => {
       <CounterComponent />
       <hr />
       <FormComponent/>
+      <hr />
+      <UsuariosComponent/>
     </>
   )
 }
